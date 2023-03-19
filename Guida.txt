@@ -1,0 +1,6 @@
+Il 99% del codice è del Prof. Palomba, ho solo fatto qualche modifica per far funzionare il tutto nel caso di interesse.
+Le classi da modificare per poter effettuare l'esecuzione sono: 
+    -CKMining, in ckMetricsExample, alla riga 32 con il path del progetto e a riga 38 con il path di salvataggio
+    -CodeSmellDetector, in CodeSmellExample, alla riga 18 con il path del progetto (non so perché si debba, non ci si arriva mai se non erro).
+
+L'esecuzione produce un file contente per ogni commit tutti i file presenti nella repo al momento del commit, associando a questi le metriche di ereditarietà e le metriche CK.
